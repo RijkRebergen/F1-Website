@@ -103,17 +103,6 @@ p {
     border: 2px solid #333;
 }
 
-.subtitle {
-    font-family: "Arial Narrow", sans-serif;
-    font-weight: bold; 
-    font-size: 1.1rem;   
-    color: #bbb;         
-    margin-top: -10px;  
-    font-style: italic;
-    display: block;
-    margin-bottom: 15px;
-}
-
 table {
     width: 100%;
     border-collapse: collapse;
