@@ -1,0 +1,164 @@
+body {
+    font-family: "Arial Narrow", Arial, sans-serif; 
+    margin: 0;
+    background: #15151E;
+    font-size: 18px; 
+    color: #ffffff;
+    font-weight: normal;
+    line-height: 1.6;
+}
+header {
+    background: #15151E;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    position: relative; 
+    border-bottom: 2px solid #e10600;
+}
+header h1 {
+    font-family: "Segoe UI Historic", "Trebuchet MS", sans-serif;
+    margin: 0;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+header img {
+    position: absolute;
+    left: 30px;         
+    top: 50%;           
+    transform: translateY(-50%); 
+    height: 60px;       
+    width: auto;
+}
+nav {
+    background: #000000;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    flex: 1;
+}
+nav ul li a {
+    font-family: "Segoe UI Historic", "Trebuchet MS", sans-serif;
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-style: italic;   
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.3s;
+}
+nav ul li a:hover {
+    background: #e10600;   
+}
+.content {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+.nieuws-item {
+    overflow: auto; 
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #333;
+}
+
+h2, h3 {
+    font-family: "Segoe UI Historic", "Trebuchet MS", sans-serif;
+    clear: both;
+    text-transform: uppercase;
+    font-style: italic;
+    color: #e10600;
+    font-weight: 800;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+}
+p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+.rechts {
+    float: right;       
+    margin-left: 25px;  
+    margin-bottom: 15px;
+    width: 35%;         
+    height: auto;
+    border: 2px solid #333;
+}
+.links {
+    float: left;
+    width: 35%;         
+    height: auto;
+    margin-right: 25px; 
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 2px solid #333;
+}
+
+.subtitle {
+    font-family: "Arial Narrow", sans-serif;
+    font-weight: bold; 
+    font-size: 1.1rem;   
+    color: #bbb;         
+    margin-top: -10px;  
+    font-style: italic;
+    display: block;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #1f1f27;
+}
+
+th {
+    font-family: "Segoe UI Historic", "Trebuchet MS", sans-serif;
+    background-color: #e10600; 
+    color: white;
+    text-align: left;
+    padding: 12px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #333; 
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #2a2a35; 
+}
+footer {
+    clear: both;
+    display: flex;           
+    justify-content: center; 
+    align-items: center;      
+    padding: 30px;
+    background: #000000;
+    color: #888;
+    font-size: 0.9em;
+    border-top: 1px solid #333;
+}
+#menuToggle {
+    background: #e10600;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-family: "Segoe UI Historic", "Trebuchet MS", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+}
